@@ -1,0 +1,42 @@
+.header {
+    height: 80px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e0e0e0;
+    margin: 3%;
+    font-size: 18px;
+}
+
+img {
+    height: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    a {
+        display: none;
+    }
+    img {
+        display: block;
+        margin-right: 3%;
+    }
+    .header {
+        justify-content: right;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        height: 30px;
+    }
+}
