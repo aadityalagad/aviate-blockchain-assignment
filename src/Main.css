@@ -1,0 +1,146 @@
+.main {
+    height: 100vh;
+    background-color: black;
+}
+
+.hero {
+	height: 90%;
+	display: flex;
+	/* border: 1px solid white; */
+	justify-content: center;
+	align-items: center;
+}
+
+.main-hero {
+	/* border: 5px solid red; */
+	padding-left: 40px;
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-hero-image {
+	/* border: 5px solid green; */
+	width: 50%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-hero-heading {
+	margin: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    background: linear-gradient(273.38deg, #123962 0%, #00aee6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.main-hero-text {
+	margin: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.main-hero-button {
+	margin: 20px;
+	width: 150px;
+	text-decoration: none;
+	background-color: #123962;
+	border: none;
+	padding: 15px 10px;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 1440px) {
+	.main-hero-heading {
+		font-size: 75px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.main-hero-heading {
+		font-size: 60px;
+	}
+
+	.main-hero-text {
+		font-size: 18px;
+	}
+
+	.main-hero-button {
+		font-size: 18px;
+		padding: 15px 5px;
+	}
+}
+
+@media (max-width: 900px) {
+	.main-hero-heading {
+		font-size: 48px;
+	}
+
+	.main-hero-text {
+		font-size: 16px;
+	}
+
+	.main-hero-button {
+		font-size: 16px;
+		padding: 10px 3px;
+	}
+}
+
+@media (max-width: 800px) {
+	.hero {
+		flex-direction: column;
+	}
+
+	.main-hero {
+		width: auto;
+		padding: 0 20px;
+	}
+
+	.main-hero-image {
+		width: 100%;
+		height: 60%;
+	}
+
+	.main-hero-heading {
+		font-size: 60px;
+	}
+
+	.main-hero-text {
+		font-size: 18px;
+	}
+
+	.main-hero-button {
+		font-size: 18px;
+		padding: 15px 5px;
+	}
+}
+
+@media (max-width: 525px) {
+	.main-hero-heading {
+		font-size: 48px;
+	}
+
+	.main-hero-text {
+		font-size: 16px;
+	}
+
+	.main-hero-button {
+		font-size: 16px;
+		padding: 10px 3px;
+	}
+}
