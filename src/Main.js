@@ -1,10 +1,8 @@
-import Header from "./Header";
 import "./Main.css";
 
 const Main = () => {
     return (
         <div className="main">
-            <Header />
             <div className="hero">
                 <div className="main-hero">
                     <div className="main-hero-heading">Blockchain</div>
