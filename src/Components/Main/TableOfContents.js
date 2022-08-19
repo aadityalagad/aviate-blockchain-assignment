@@ -8,7 +8,7 @@ const TableOfContents = (props) => {
 			<div className="table-of-contents-content">
 				{props.data.map((topic, index) => {
 					return (
-						<a href={`#${index}`} key={index}>
+						<a href={`#${topic["id"]}`} key={index}>
 							{topic["heading"]}
 						</a>
 					);

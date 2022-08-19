@@ -1,5 +1,6 @@
 [
 	{
+		"id": "blockchain-1",
 		"heading": "What Is a Blockchain?",
 		"data": [
 			"A blockchain is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the fidelity and security of a record of data and generates trust without the need for a trusted third party.",
@@ -9,6 +10,7 @@
 		]
 	},
 	{
+		"id": "blockchain-2",
 		"heading": "How Does a Blockchain Work?",
 		"data": [
 			"The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. In this way, a blockchain is the foundation for immutable ledgers, or records of transactions that cannot be altered, deleted, or destroyed. This is why blockchains are also known as a distributed ledger technology (DLT).",
@@ -16,6 +18,7 @@
 		]
 	},
 	{
+		"id": "blockchain-3",
 		"heading": "Blockchain Decentralization",
 		"data": [
 			"Imagine that a company owns a server farm with 10,000 computers used to maintain a database holding all of its client's account information. This company owns a warehouse building that contains all of these computers under one roof and has full control of each of these computers and all of the information contained within them. This, however, provides a single point of failure. What happens if the electricity at that location goes out? What if its Internet connection is severed? What if it burns to the ground? What if a bad actor erases everything with a single keystroke? In any case, the data is lost or corrupted.",
@@ -24,6 +27,7 @@
 		]
 	},
 	{
+		"id": "blockchain-4",
 		"heading": "Transparency",
 		"data": [
 			"Because of the decentralized nature of Bitcoin's blockchain, all transactions can be transparently viewed by either having a personal node or using blockchain explorers that allow anyone to see transactions occurring live. Each node has its own copy of the chain that gets updated as fresh blocks are confirmed and added. This means that if you wanted to, you could track Bitcoin wherever it goes.",
@@ -32,6 +36,7 @@
 		]
 	},
 	{
+		"id": "blockchain-5",
 		"heading": "Is Blockchain Secure?",
 		"data": [
 			"Blockchain technology achieves decentralized security and trust in several ways. To begin with, new blocks are always stored linearly and chronologically. That is, they are always added to the “end” of the blockchain. After a block has been added to the end of the blockchain, it is extremely difficult to go back and alter the contents of the block unless a majority of the network has reached a consensus to do so. That's because each block contains its own hash, along with the hash of the block before it, as well as the previously mentioned timestamp. Hash codes are created by a mathematical function that turns digital information into a string of numbers and letters. If that information is edited in any way, then the hash code changes as well.",
@@ -41,6 +46,7 @@
 		]
 	},
 	{
+		"id": "blockchain-6",
 		"heading": "How Are Blockchains Used?",
 		"data": [
 			"As we now know, blocks on Bitcoin's blockchain store data about monetary transactions. Today, there are more than 10,000 other cryptocurrency systems running on blockchain. But it turns out that blockchain is actually a reliable way of storing data about other types of transactions as well.",

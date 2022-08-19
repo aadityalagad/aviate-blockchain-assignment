@@ -1,5 +1,6 @@
 [
 	{
+		"id": "bitcoin-1",
 		"heading": "What Is Bitcoin?",
 		"data": [
 			"Bitcoin is a cryptocurrency, a virtual currency designed to act as money and a form of payment outside the control of any one person, group, or entity, and thus removing the need for third-party involvement in financial transactions. It is rewarded to blockchain miners for the work done to verify transactions and can be purchased on several exchanges.",
@@ -8,6 +9,7 @@
 		]
 	},
 	{
+		"id": "bitcoin-2",
 		"heading": "Understanding Bitcoin",
 		"data": [
 			"In August 2008, the domain name Bitcoin.org was registered. Today, at least, this domain is WhoisGuard Protected, meaning the identity of the person who registered it is not public information.",
@@ -22,6 +24,7 @@
 		]
 	},
 	{
+		"id": "bitcoin-3",
 		"heading": "How to Mine Bitcoin",
 		"data": [
 			"Imagine that a company owns a server farm with 10,000 computers used to maintain a database holding all of its client's account information. This company owns a warehouse building that contains all of these computers under one roof and has full control of each of these computers and all of the information contained within them. This, however, provides a single point of failure. What happens if the electricity at that location goes out? What if its Internet connection is severed? What if it burns to the ground? What if a bad actor erases everything with a single keystroke? In any case, the data is lost or corrupted.",
@@ -30,6 +33,7 @@
 		]
 	},
 	{
+		"id": "bitcoin-4",
 		"heading": "Transparency",
 		"data": [
 			"A variety of hardware and software can be used to mine Bitcoin. When Bitcoin was first released, it was possible to mine it competitively on a personal computer. However, as it became more popular, more miners joined the network, which lowered the chances of being the one to solve the hash. You can still use your personal computer as a miner if it has newer hardware, but the chances of solving a hash are individually are minuscule.",
@@ -40,12 +44,14 @@
 		]
 	},
 	{
+		"id": "bitcoin-5",
 		"heading": "How Do You Buy Bitcoin?",
 		"data": [
 			"If you don't want to mine bitcoin, it can be bought using a cryptocurrency exchange. Most people will not be able to purchase an entire BTC because of its price, but you can buy portions of BTC on these exchanges in fiat currency like U.S. dollars. For example, you can buy bitcoin on Coinbase by creating an account and funding it. You can fund your account using your bank account, credit card, or debit card."
 		]
 	},
 	{
+		"id": "bitcoin-6",
 		"heading": "How Is Bitcoin Used?",
 		"data": [
 			"Bitcoin was initially designed and released as a peer-to-peer payment method. However, its use cases are growing due to its increasing value and competition from other blockchains and cryptocurrencies.",
@@ -54,6 +60,7 @@
 		]
 	},
 	{
+		"id": "bitcoin-7",
 		"heading": "Risks of Investing in Bitcoin",
 		"data": [
 			"Speculative investors have been drawn to Bitcoin after its rapid price appreciation in recent years. Bitcoin had a price of $7,167.52 on Dec. 31, 2019, and a year later, it had appreciated more than 300% to $28,984.98. It continued to surge in the first half of 2021, trading at a record high of over $69,000 in November 2021—it then fell over the next few months to hover around $40,000.",

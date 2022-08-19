@@ -9,7 +9,7 @@ const Article = (props) => {
 					// Topic component to render topics in an article
 					<Topic
 						key={index}
-						index={index}
+						index={topic["id"]}
 						heading={topic["heading"]}
 						data={topic["data"]}
 					/>
