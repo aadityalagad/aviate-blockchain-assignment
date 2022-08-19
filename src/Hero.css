@@ -66,6 +66,11 @@
     font-size: 20px;
 }
 
+.main-hero-button a {
+    color: white;
+    font-weight: normal;
+}
+
 .blue-button {
     background-color: #123962;
     color: white;

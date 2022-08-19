@@ -17,7 +17,7 @@ function App() {
                 As a database, a blockchain stores information electronically in digital format."
                 colorClass="blue"
             />
-            <About data={BlockchainData}/>
+            <About id="about-blockchain" data={BlockchainData}/>
 
             <Main
                 class="bitcoin"
@@ -28,7 +28,7 @@ function App() {
                 and thus removing the need for third-party involvement in financial transactions."
                 colorClass="yellow"
             />
-            <About data={BitcoinData} />
+            <About id="about-bitcoin" data={BitcoinData} />
         </div>
     );
 }

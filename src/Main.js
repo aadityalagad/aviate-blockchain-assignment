@@ -3,8 +3,9 @@ import "./Main.css";
 
 const Main = (props) => {
     return (
-        <div id={props.id} className="main">
+        <div id={props.id}className="main">
             <Hero
+                href={`#about-${props.id}`}
                 class={props.class}
                 title={props.title}
                 description={props.description}

@@ -4,7 +4,7 @@ import TableOfContents from "./TableOfContents";
 
 const About = (props) => {
     return (
-        <div className="about">
+        <div id={props.id} className="about">
             <TableOfContents data={props.data} />
             <Article data={props.data} />
         </div>
