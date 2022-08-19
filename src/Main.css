@@ -35,7 +35,18 @@
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
-    background: linear-gradient(273.38deg, #123962 0%, #0080ab 100%);
+}
+
+.blue {
+	background: linear-gradient(273.38deg, #123962 0%, #0080ab 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.yellow {
+	background: linear-gradient(273.38deg, #4d4d4e 0%, #f2a900 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -52,13 +63,22 @@
 	margin: 20px;
 	width: 150px;
 	text-decoration: none;
-	background-color: #123962;
-	color: white;
+	
 	border: none;
 	padding: 15px 10px;
 	border-radius: 0.5rem;
 	cursor: pointer;
 	font-size: 20px;
+}
+
+.blue-button {
+	background-color: #123962;
+	color: white;
+}
+
+.yellow-button {
+	background-color: #4d4d4e;
+	color: white;
 }
 
 svg {

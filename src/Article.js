@@ -1,11 +1,10 @@
 import Information from "./Information";
-import content from "./Blockchain.json";
 import "./Article.css";
 
-const Article = () => {
+const Article = (props) => {
     return (
         <div className="information">
-            {content.map((topic, index) => {
+            {props.data.map((topic, index) => {
                 return (
                     <Information
                         key={index}
