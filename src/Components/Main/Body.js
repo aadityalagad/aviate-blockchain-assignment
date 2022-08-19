@@ -5,6 +5,7 @@ import Page from "./Page";
 const Body = () => {
 	return (
 		<>
+		{/* Page component for rendering information about blockchain */}
 			<Page
 				class="blockchain"
 				id="blockchain"
@@ -15,6 +16,8 @@ const Body = () => {
 				aboutId="about-blockchain"
 				data={BlockchainData}
 			/>
+
+		{/* Page component for rendering information about bitcoin */}
 			<Page
 				class="bitcoin"
 				id="bitcoin"

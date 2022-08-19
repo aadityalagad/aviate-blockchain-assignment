@@ -5,18 +5,22 @@ import Output from "./Output";
 import listOfCurrency from "../../api/ListOfCurrency.json";
 
 const Calculator = () => {
+	// State for input value
 	const [value, setValue] = useState(0);
 	const [result, setResult] = useState(0);
 	const [currency, setCurrency] = useState("INR");
 
+	// Function to set value of input field
 	const handleValue = (value) => {
 		setValue(value);
 	};
 
+	// Function to set currency of input field
 	const handleCurrency = (currency) => {
 		setCurrency(currency);
 	};
 
+	// fetch data from api and set result
 	useEffect(() => {
 		var requestOptions = {
 			method: "GET",
@@ -36,12 +40,14 @@ const Calculator = () => {
 
 	return (
 		<div className="calculator">
+			{/* Input component for input value and currency */}
 			<Input
 				currency={currency}
 				listOfCurrency={listOfCurrency}
 				setCurrencyHandler={handleCurrency}
 				setValueHandler={handleValue}
 			/>
+			{/* Output component for displaying result */}
 			<Output value={result} />
 		</div>
 	);

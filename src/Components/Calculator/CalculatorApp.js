@@ -10,6 +10,7 @@ const CalculatorApp = () => {
 			<h2 className="calculator-app-description">
 				Convert x value in the provided currency to btc
 			</h2>
+			{/* Calculator component for implementing currency exchange calculator */}
 			<Calculator />
 		</div>
 	);

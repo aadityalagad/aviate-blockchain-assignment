@@ -6,6 +6,7 @@ const Article = (props) => {
 		<div className="article">
 			{props.data.map((topic, index) => {
 				return (
+					// Topic component to render topics in an article
 					<Topic
 						key={index}
 						index={index}
