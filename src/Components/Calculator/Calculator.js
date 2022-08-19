@@ -2,13 +2,12 @@ import { useEffect, useState } from "react";
 import "./Calculator.css";
 import Input from "./Input";
 import Output from "./Output";
-import currencyList from "../../api/ListOfCurrency.json";
+import listOfCurrency from "../../api/ListOfCurrency.json";
 
 const Calculator = () => {
 	const [value, setValue] = useState(0);
 	const [result, setResult] = useState(0);
 	const [currency, setCurrency] = useState("INR");
-	const listOfCurrency = [...currencyList];
 
 	const handleValue = (value) => {
 		setValue(value);
