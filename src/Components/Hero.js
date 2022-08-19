@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Svg from "./Svg";
+import Svg from "../svg/Svg";
 
 const Hero = (props) => {
 	return (

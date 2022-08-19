@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "./Images/menu.png";
+import logo from "../Images/menu.png";
 
 const Header = () => {
 	return (
