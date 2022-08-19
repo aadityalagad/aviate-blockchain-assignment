@@ -1,0 +1,34 @@
+.calculator-app {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.calculator-app-heading {
+	padding: 30px;
+}
+
+.calculator-app-description {
+	padding: 30px;
+	font-style: italic;
+}
+
+@media (max-width: 768px) {
+	.calculator-app-heading {
+		font-size: 28px;
+	}
+	.calculator-app-description {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 480px) {
+	.calculator-app-heading {
+		font-size: 24px;
+	}
+	.calculator-app-description {
+		font-size: 16px;
+	}
+}

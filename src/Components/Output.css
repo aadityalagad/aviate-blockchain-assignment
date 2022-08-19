@@ -1,0 +1,34 @@
+.output {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.output-label {
+	margin: 10px;
+}
+
+.output-value {
+	margin: 10px;
+}
+
+@media (max-width: 768px) {
+	.output {
+		font-size: 18px;
+	}
+	.output-label {
+		margin: 6px;
+	}
+	.output-value {
+		margin: 6px;
+	}
+}
+
+@media (max-width: 768px) {
+	.output {
+		font-size: 16px;
+	}
+}
