@@ -6,7 +6,7 @@
 .hero {
 	height: 90%;
 	display: flex;
-	/* border: 1px solid white; */
+	/* border: 1px solid red; */
 	justify-content: center;
 	align-items: center;
 }

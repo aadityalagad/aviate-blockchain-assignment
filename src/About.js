@@ -1,14 +1,14 @@
-import "./Blockchain.css";
+import "./About.css";
 import Article from "./Article";
 import TableOfContents from "./TableOfContents";
 
-const Blockchain = () => {
+const About = (props) => {
     return (
-        <div className="blockchain">
+        <div className={props.class}>
             <TableOfContents />
             <Article />
         </div>
     );
 };
 
-export default Blockchain;
+export default About;
