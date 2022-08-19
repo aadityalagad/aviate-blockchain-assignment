@@ -4,6 +4,7 @@
 	height: auto;
 	padding: 2rem;
 	padding-left: 4rem;
+	border-bottom: 1px solid #ccc;
 }
 
 @media (max-width: 800px) {
