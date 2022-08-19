@@ -3,13 +3,13 @@ import logo from "./Images/menu.png";
 
 const Header = () => {
 	return (
-		<nav className="header sticky">
-			<a href="#blockchain">About Blockchain</a>
-			<a href="#bitcoin">About Bitcoin</a>
+		<nav className="header">
+			<a href="#blockchain">Blockchain</a>
+			<a href="#bitcoin">Bitcoin</a>
 			<a href="#currency-exchange-calculator">
 				Currency Exchange Calculator
 			</a>
-			<img className="menu-image" src={logo} alt="menu"></img>
+			<img className="hamburger" src={logo} alt="menu"></img>
 		</nav>
 	);
 };

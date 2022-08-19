@@ -1,12 +1,12 @@
-import Information from "./Information";
 import "./Article.css";
+import Topic from "./Topic";
 
 const Article = (props) => {
 	return (
-		<div className="information">
+		<div className="article">
 			{props.data.map((topic, index) => {
 				return (
-					<Information
+					<Topic
 						key={index}
 						index={index}
 						heading={topic["heading"]}

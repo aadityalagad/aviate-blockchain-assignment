@@ -2,7 +2,6 @@ import React from "react";
 
 const BitcoinSvg = () => {
 	return (
-		<div className="main-hero-image">
 			<svg
 				width="729"
 				height="729"
@@ -249,7 +248,6 @@ const BitcoinSvg = () => {
 					fill="#F7F7FC"
 				/>
 			</svg>
-		</div>
 	);
 };
 

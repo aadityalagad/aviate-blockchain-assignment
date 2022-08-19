@@ -18,7 +18,7 @@ a {
 	font-size: 20px;
 }
 
-img {
+.hamburger {
 	height: 40px;
 	cursor: pointer;
 	display: none;
@@ -28,7 +28,7 @@ img {
 	.header a {
 		display: none;
 	}
-	img {
+	.hamburger {
 		display: block;
 		margin-right: 3%;
 	}
@@ -38,7 +38,7 @@ img {
 }
 
 @media (max-width: 500px) {
-	img {
+	.hamburger {
 		height: 30px;
 	}
 }

@@ -1,6 +1,5 @@
 const BlockchainSvg = () => {
 	return (
-		<div className="main-hero-image">
 			<svg
 				width="729"
 				height="729"
@@ -178,7 +177,6 @@ const BlockchainSvg = () => {
 					</linearGradient>
 				</defs>
 			</svg>
-		</div>
 	);
 };
 
