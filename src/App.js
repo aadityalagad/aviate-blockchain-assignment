@@ -1,7 +1,7 @@
 import "./App.css";
-import Body from "./Components/Body";
-import CalculatorApp from "./Components/CalculatorApp";
-import Header from "./Components/Header";
+import Body from "./Components/Main/Body";
+import CalculatorApp from "./Components/Calculator/CalculatorApp";
+import Header from "./Components/Main/Header";
 
 function App() {
 	return (

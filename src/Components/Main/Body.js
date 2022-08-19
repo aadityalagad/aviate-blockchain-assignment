@@ -1,5 +1,5 @@
-import BlockchainData from "../api/Blockchain.json";
-import BitcoinData from "../api/Bitcoin.json";
+import BlockchainData from "../../api/Blockchain.json";
+import BitcoinData from "../../api/Bitcoin.json";
 import Page from "./Page";
 
 const Body = () => {

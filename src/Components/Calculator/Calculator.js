@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Calculator.css";
 import Input from "./Input";
 import Output from "./Output";
-import currencyList from "../api/ListOfCurrency.json";
+import currencyList from "../../api/ListOfCurrency.json";
 
 const Calculator = () => {
 	const [value, setValue] = useState(0);
