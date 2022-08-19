@@ -1,5 +1,6 @@
 import Information from "./Information";
 import content from "./Blockchain.json";
+import "./Article.css";
 
 const Article = () => {
     return (
