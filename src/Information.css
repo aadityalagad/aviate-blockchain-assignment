@@ -1,0 +1,13 @@
+.information-heading {
+    position: sticky;
+}
+
+.information-content {
+    position: sticky;
+    margin: 80px 0;
+    line-height: 2;
+}
+
+.information-content p {
+    margin: 20px 0;
+}

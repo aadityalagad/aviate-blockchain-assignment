@@ -9,7 +9,6 @@ const Header = () => {
             <a href="#currency-exchange-calculator">
                 Currency Exchange Calculator
             </a>
-            <a href="#transactional-data">Transactional Data</a>
             <img className="menu-image" src={logo} alt="menu"></img>
         </nav>
     );
