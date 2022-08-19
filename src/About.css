@@ -1,8 +1,16 @@
 .about {
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    width: 100%;
-    height: auto;
-    /* border: 3px solid green; */
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	width: 100%;
+	height: auto;
+	padding: 2rem;
+	padding-left: 4rem;
+	/* border: 3px solid green; */
+}
+
+@media (max-width: 800px) {
+	.about {
+		padding-left: 2rem;
+	}
 }
