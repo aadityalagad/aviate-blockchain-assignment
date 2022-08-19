@@ -2,11 +2,11 @@ import "./Information.css";
 
 const Information = (props) => {
     return (
-        <div className="information">
+        <div id={props.index}>
             <h2 className="information-heading">{props.heading}</h2>
-            <div className="information-data">
-                {props.data.map((item, index) => {
-                    <p key={index}>{item}</p>;
+            <div className="information-content">
+                {props.data.map((paragraph, index) => {
+                    return <p key={index}>{paragraph}</p>;
                 })}
             </div>
         </div>
